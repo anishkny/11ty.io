@@ -7,7 +7,7 @@ tags:
 
 {% for site in starters -%}
 {% if site.disabled != true -%}
-1. [{% avatarlocalcache "twitter", site.author, site.author %}{{ site.name }}]({{ site.url }}){% if site.description %} {{ site.description}}{% endif %}
+1. [{% avatarlocalcache "twitter", site.author, site.author %}{{ site.name }}]({{ site.url }}){% if site.description %} {{ site.description}}{% endif %} <a href="{{ site.demo }}"><img src="/img/screenshots/{{ site.name }}.png" width="100"></a>
 {% endif -%}
 {% endfor -%}
 
@@ -33,4 +33,3 @@ This list shows all of the sample sites that have provided a link to their sourc
 {% endfor -%}
   </tbody>
 </table>
-
