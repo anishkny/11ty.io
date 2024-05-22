@@ -33,6 +33,7 @@
     "lodash.defer": "^4.1.0",
     "markdown-it-anchor": "^5.0.2",
     "node-fetch": "^2.3.0",
+    "puppeteer": "^2.0.0",
     "slugify": "^1.3.4",
     "sorted-object": "^2.0.1"
   },
